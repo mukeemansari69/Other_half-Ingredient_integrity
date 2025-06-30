@@ -78,11 +78,7 @@
   </div>
 </section>
 
-
-
 <!--************************************************************************************************************************************** Its OK Section ****************************************************************** -->
-
-
 
 <section class="its-ok-section">
   <div class="container d-flex justify-content-between align-items-start">
@@ -100,59 +96,6 @@
 
 
 
-<!-- ************************************************************************************************************************************* Feature Dog Seaction ************************************************************ -->
-
-
-<section class="feature-dog-section">
-  <div class="container-fluid px-0">
-    <div class="row gx-5">
-      <!-- Left Image Side -->
-      <div class="col-lg-6 d-flex align-items-end justify-content-center position-relative dog-img-col">
-        <img src="images\adorable-puppy-solo-portrait 1.png" alt="Sleeping Dog" class="dog-image">
-        <img src="images\Vector.png" alt="Snooze Icon" class="snooze-icon">
-      </div>
-
-      <!-- Right Card Side -->
-      <div class="col-lg-6 d-flex flex-column justify-content-start gap-4 feature-card-col ml=-166px">
-        <div class="row">
-          <!-- Top 2 Cards -->
-          <div class="col-md-6 mb-4">
-            <div class="feature-card">
-              <img src="images\Frame 2085664730.png" alt="Icon" class="feature-icon">
-              <h4>100% Human-Grade</h4>
-              <p>Yep, your dog’s supplements are made with ingredients you’d find in your own pantry.</p>
-            </div>
-          </div>
-          <div class="col-md-6 mb-4">
-            <div class="feature-card">
-              <img src="images\Frame 2085664730 (1).png" alt="Icon" class="feature-icon">
-              <h4>No Fillers, Ever</h4>
-              <p>If it doesn’t serve your dog’s health, it’s cut. Ruthlessly.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <!-- Bottom 2 Cards -->
-          <div class="col-md-6">
-            <div class="feature-card">
-              <img src="images\Frame 2085664730 (2).png" alt="Icon" class="feature-icon">
-              <h4>Vet-Approved, Science-Obsessed</h4>
-              <p>Every product is built with vet input, not boardroom buzzwords.</p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="feature-card">
-              <img src="images\Frame 2085664730 (3).png" alt="Icon" class="feature-icon">
-              <h4>No Fake Flavors, Colors, or Junk</h4>
-              <p>No “bacon dust.” No “beef essence.” Just real ingredients. The way it should be.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 
 
@@ -164,3 +107,158 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
+/* ########################################################################################################## Banner Seaction ########################################################################################### */
+
+
+.banner-section {
+  background: linear-gradient(#00000099, #00000099), url("images/8c6767323e75cef569e3be390922eb673056b195.jpg") no-repeat center center;
+  background-size: cover;
+  max-height: 440px;
+  height: 100vh;
+  padding: 60px 20px;
+  color: #FFFFFF;
+}
+
+.banner-heading {
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 125%;
+  letter-spacing: 0;
+  color: #FFFFFF;
+}
+
+.banner-paragraph {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+/* ############################################################################################################# Banner Footer Seaction ################################################################################### */
+
+
+.banner-footer-section .marquee-wrapper {
+  background-color: #e5744b;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 78px;
+  width: 100%;
+}
+
+.banner-footer-section .marquee-inner {
+  display: inline-flex;
+  animation: scroll 20s linear infinite;
+  white-space: nowrap;
+}
+
+.banner-footer-section .marquee-item {
+  display: inline-flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 40px;
+  white-space: nowrap;
+}
+
+.banner-footer-section .marquee-item img {
+  width: 26.99px;
+  height: 24px;
+  transform: rotate(-28.46deg);
+  margin: 0 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+  .banner-footer-section .marquee-item {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+  .banner-footer-section .marquee-item img {
+    width: 22px;
+    height: 20px;
+    margin: 0 6px;
+    transform: rotate(-150.46deg);
+  }
+}
+
+
+
+/*############################################################################################################################### its Ok Seaction ##########################################################################  */
+
+
+.its-ok-section {
+  padding: 120px 240px 20px 240px;
+  height: 260px;
+  background-color: #ffffff;
+}
+
+.its-ok-section .container {
+  display: flex;
+  gap: 84px;
+}
+
+.its-ok-heading h2 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 40px;
+  line-height: 125%;
+  font-weight: 400;
+  margin: 0;
+  color: #000;
+  width: 363px;
+}
+
+.its-ok-paragraph {
+  max-width: 954px;
+  height: 90px;
+}
+
+.its-ok-paragraph p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 152%;
+  margin: 0;
+  color: #000;
+  width: 954px;
+  margin-top: 3%;
+}
+
+@media (max-width: 992px) {
+  .its-ok-section .container {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .its-ok-section {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .its-ok-paragraph {
+    height: auto;
+  }
+}
