@@ -236,10 +236,263 @@
 }
 
 
+/* ################################################################################################################################# our Process Seaction ########################################################################## */
+.our-process-section {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.process-container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.process-subtitle {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1f5b3f;
+  font-family: Poppins, sans-serif;
+  margin: 0;
+}
+
+.process-title {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Luckiest Guy', cursive;
+  margin: 10px 0 40px;
+}
+
+.process-structure {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.process-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.process-item {
+  flex: 1;
+  padding: 0 24px;
+  text-align: left;
+  position: relative;
+}
+
+.process-icon {
+  width: 42px;
+  height: 42px;
+  margin-bottom: 12px;
+}
+
+.process-item h4 {
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+}
+
+.process-item p {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  margin: 8px 0 0;
+  width: 326px;
+  height: 54px;
+}
+
+.step-number {
+  position: absolute;
+  font-size: 64px;
+  font-weight: 800;
+  color: #f0f0f0;
+  bottom: -10px;
+  right: 24px;
+  z-index: -1;
+}
+
+
+
+/* Connector lines and dots */
+.line-connector {
+  position: absolute;
+  top: 50%; /* places the horizontal line in the middle of the section */
+  left: 0;
+  width: 100%;
+  height: 0;
+  pointer-events: none;
+}
+
+.horizontal-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-top: 2px dotted #1f5b3f; /* green dotted line */
+}
+
+
+/* ################################################################################################################################   We Obses ############################################################################## */
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+#we-obsess {
+  display: flex;
+  height: 751px;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.text-content {
+  width: 50%;
+  background-color: #f26d45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box {
+  width: 640px;
+  height: 471px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: white;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 125%;
+  margin: 0;
+}
+
+.section-description {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.accordion {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  padding: 15px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  position: relative;
+  transition: background 0.3s ease;
+}
+
+.accordion.active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.accordion-content {
+  display: none;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.accordion.active .accordion-content {
+  display: block;
+}
+
+.image-content {
+  width: 50%;
+  background: url('images/7db504b9782777d2a0e7dfb32ad73d75b66ba064.jpg') center/cover no-repeat;
+}
+.accordion {
+  position: relative;
+  padding-right: 50px;
+}
+
+.accordion-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: auto;
+}
 
 
 
 
+/* ############################################################################################################################################### ingrediant ############################################################## */
 
 
+#ingredient {
+  display: flex;
+  height: 613px;
+  font-family: 'Poppins', sans-serif;
+}
 
+.ingredient-image {
+  width: 50%;
+  background: url('images/f3e4d13e3c4f0bcd3a13073faa37826fe8f0017b.png') center/contain no-repeat;
+  background-color: #fff;
+  margin-top: 5%;
+  margin-left: -2%; /* fallback or layout background */
+}
+
+.ingredient-text {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.ingredient-content {
+  width: 667px;
+  height: 373px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ingredient-content h2 {
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 125%;
+  margin: 0;
+}
+
+.ingredient-content p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 152%;
+  margin: 0;
+}
+
+.ingredient-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  height: 55px;
+  padding: 0 24px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+}
+
+.btn.green {
+  background-color: #007f3f;
+  color: white;
+}
+
+.btn.yellow {
+  background-color: #ffe447;
+  color: black;
+}

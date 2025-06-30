@@ -78,7 +78,11 @@
   </div>
 </section>
 
+
+
 <!--************************************************************************************************************************************** Its OK Section ****************************************************************** -->
+
+
 
 <section class="its-ok-section">
   <div class="container d-flex justify-content-between align-items-start">
@@ -96,6 +100,59 @@
 
 
 
+<!-- ************************************************************************************************************************************* Feature Dog Seaction ************************************************************ -->
+
+
+<section class="feature-dog-section">
+  <div class="container-fluid px-0">
+    <div class="row gx-5">
+      <!-- Left Image Side -->
+      <div class="col-lg-6 d-flex align-items-end justify-content-center position-relative dog-img-col">
+        <img src="images\adorable-puppy-solo-portrait 1.png" alt="Sleeping Dog" class="dog-image">
+        <img src="images\Vector.png" alt="Snooze Icon" class="snooze-icon">
+      </div>
+
+      <!-- Right Card Side -->
+      <div class="col-lg-6 d-flex flex-column justify-content-start gap-4 feature-card-col">
+        <div class="row">
+          <!-- Top 2 Cards -->
+          <div class="col-md-6 mb-4">
+            <div class="feature-card">
+              <img src="images\Frame 2085664730.png" alt="Icon" class="feature-icon">
+              <h4>100% Human-Grade</h4>
+              <p>Yep, your dog’s supplements are made with ingredients you’d find in your own pantry.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="feature-card">
+              <img src="images\Frame 2085664730 (1).png" alt="Icon" class="feature-icon">
+              <h4>No Fillers, Ever</h4>
+              <p>If it doesn’t serve your dog’s health, it’s cut. Ruthlessly.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- Bottom 2 Cards -->
+          <div class="col-md-6">
+            <div class="feature-card">
+              <img src="images\Frame 2085664730 (2).png" alt="Icon" class="feature-icon">
+              <h4>Vet-Approved, Science-Obsessed</h4>
+              <p>Every product is built with vet input, not boardroom buzzwords.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature-card">
+              <img src="images\Frame 2085664730 (3).png" alt="Icon" class="feature-icon">
+              <h4>No Fake Flavors, Colors, or Junk</h4>
+              <p>No “bacon dust.” No “beef essence.” Just real ingredients. The way it should be.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -107,9 +164,6 @@
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
 /* ########################################################################################################## Banner Seaction ########################################################################################### */
 
 
@@ -212,6 +266,7 @@
   padding: 120px 240px 20px 240px;
   height: 260px;
   background-color: #ffffff;
+  max-width: 1920px;
 }
 
 .its-ok-section .container {
@@ -262,3 +317,95 @@
     height: auto;
   }
 }
+
+
+/* ###################################################################################################################################### Feature Dog Seaction ############################################################## */
+
+
+.feature-dog-section {
+  width: 100%;
+  max-width: 1920px;
+  height: 526px;
+  padding: 32px 154px 100px 10px;
+  background-color: #fff;
+}
+
+.dog-img-col {
+  position: relative;
+}
+
+.dog-image {
+    width: 823.71px;
+    height: 549px;
+    object-fit: contain;
+    margin-top: 97px;
+    margin-left: -155px;
+}
+.snooze-icon {
+  position: absolute;
+  top: 49%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 63px; /* adjust based on your icon */
+}
+
+.feature-card {
+  width: 100%;
+  max-width: 460.5px;
+  height: 181px;
+  padding: 0 24px;
+  border-left: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: -155px;
+}
+
+.feature-icon {
+  width: 68px; /* adjust size */
+  height: 68px;
+  margin-bottom: 8px;
+}
+
+.feature-card h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.feature-card p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .feature-dog-section {
+    padding: 32px 20px 80px 20px;
+    height: auto;
+  }
+
+  .dog-image {
+    width: 100%;
+    height: auto;
+    transform: rotate(0deg);
+  }
+
+  .snooze-icon {
+    display: none;
+  }
+
+  .feature-card-col {
+    margin-top: 40px;
+  }
+}
+
+
+
+
+
+
+
+
+
