@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap with Custom CSS and JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>INGREDIENTS INTEGRITY</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Custom CSS -->
@@ -17,15 +18,20 @@
 
 <!-- ***************************************************************************************************************************** Banner Seaction ************************************************************************* -->
 
-<section class="banner-section d-flex justify-content-center align-items-center">
-  <div class="text-center banner-content">
-    <h1 class="banner-heading">WE’RE OTHER HALF — NO FILLERS, NO FAKES.</h1>
-    <p class="banner-paragraph">
-      Every scoop we make is obsessively clean, vet-formulated, and actually does something.
-      Because your dog’s health isn’t where we experiment.
-    </p>
+<section class="banner-section d-flex justify-content-center align-items-center text-center">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <h1 class="banner-heading">WE’RE OTHER HALF — NO FILLERS, NO FAKES.</h1>
+        <p class="banner-paragraph">
+          Every scoop we make is obsessively clean, vet-formulated, and actually does something.
+          Because your dog’s health isn’t where we experiment.
+        </p>
+      </div>
+    </div>
   </div>
 </section>
+
 
 
 
@@ -155,15 +161,138 @@
 </section>
 
 
+<!-- ********************************************************************************************************************************************************* our Process seaction **************************************** -->
+
+ <section class="our-process-section">
+        <div class="process-container">
+            <p class="process-subtitle">OUR PROCESS</p>
+            <h2 class="process-title">WE BUILD EACH FORMULA WITH CARE</h2>
+
+            <div class="process-structure">
+                <div class="timeline-horizontal-line"></div>
+
+                <div class="process-items-wrapper">
+                    <div class="process-item process-step-1">
+                        <div class="icon-circle">
+                            <img src="images/Frame 2085664730 (4).png" alt="searchicon" class="process-icon">
+                        </div>
+                        <h4>We Research. A Lot.</h4>
+                        <p>Science journals, clinical studies, vet consults. We don’t guess — we geek out.</p>
+                        <span class="step-number">01</span>
+                    </div>
+
+                    <div class="process-item process-step-2">
+                        <div class="icon-circle">
+                            <img src="images/Frame 2085664730 (6).png" alt="process" class="process-icon">
+                        </div>
+                        <h4>We Formulate With Intention.</h4>
+                        <p>Every nutrient is dosed with a purpose — not tossed in to pad a label.</p>
+                        <span class="step-number">02</span>
+                    </div>
+
+                    <div class="process-item process-step-3">
+                        <div class="icon-circle">
+                            <img src="images/Frame 2085664730 (5).png" alt="batch" class="process-icon">
+                        </div>
+                        <h4>We Produce Safely.</h4>
+                        <p>cGMP certified, third-party tested, and quality-checked to the last scoop.</p>
+                        <span class="step-number">03</span>
+                    </div>
+
+                    <div class="process-item process-step-4">
+                        <div class="icon-circle">
+                            <img src="images/Frame 2085664730 (7).png" alt="process" class="process-icon">
+                        </div>
+                        <h4>We Don’t Launch It Unless It’s Legit.</h4>
+                        <p>If our dogs won’t eat it, and yours won’t benefit? We don’t sell it.</p>
+                        <span class="step-number">04</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- ************************************************************************************************************************************  WE Obses *********************************************************************** -->
+
+
+<section id="we-obsess">
+  <div class="text-content">
+    <div class="text-box">
+      <h2 class="section-title">& We Obsess Over How It’s Made</h2>
+      <p class="section-description">
+        Before a single scoop hits your dog’s bowl, we’ve already obsessed over every part of the process — from sourcing ingredients to sealing the tub. We don’t believe in “good enough.” We believe in pharma-grade precision, full transparency, and doing things the right way (even when it’s harder).
+      </p>
+
+      <div class="accordion" onclick="toggleAccordion(this)">
+  We Manufacture in a cGMP Certified Facility
+  <img src="images\Frame 2085664541.png" alt="Toggle" class="accordion-icon" />
+  <div class="accordion-content fs=20px">
+   We make our products in a cGMP-certified facility — the same quality and safety standards used for human supplements. That means clean rooms, real-time tracking, third-party testing, and zero shortcuts. Ever. Because your dog deserves better than a mystery tub made in a mystery lab.
+  </div>
+</div>
+
+<div class="accordion" onclick="toggleAccordion(this)">
+  We Make Everything in the USA 
+  <img src="images\Frame 2085664541.png" alt="Toggle" class="accordion-icon" />
+  <div class="accordion-content fs=20px">
+    Formulated, tested, and blended in the USA — on purpose. We don’t outsource quality. We control every step from scoop to seal so you know exactly what’s going into your dog’s body (and why). Plus, it keeps our standards high, our batches consistent, and our team within barking distance.
+  </div>
+</div>
+
+
+      
+    </div>
+  </div>
+  <div class="image-content"></div>
+</section>
 
 
 
 
 
+<!-- *****************************************************************************************************************************************************   intgredient Seaction ***************************************** -->
+
+
+<section id="ingredient">
+  <div class="ingredient-image"></div>
+
+  <div class="ingredient-text">
+    <div class="ingredient-content">
+      <h2>INGREDIENT INTEGRITY ISN’T OUR FLEX — IT’S OUR BASELINE</h2>
+      <p>
+        We started Other Half because our own dogs were being let down by lazy formulas and low standards. <br />
+        Now? Every scoop we send out is our way of saying: <br /><strong>“We got this.”</strong> <br />
+        (So you can go back to being the fun parent, not the worried one.)
+      </p>
+      <div class="ingredient-buttons">
+        <button class="btn green">TAKE THE QUIZ</button>
+        <button class="btn yellow">EXPLORE OUR INGREDIENTS GLOSSARY</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- Bootstrap JS (optional for responsive components) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
 /* ########################################################################################################## Banner Seaction ########################################################################################### */
 
 
@@ -296,7 +425,7 @@
   line-height: 152%;
   margin: 0;
   color: #000;
-  width: 954px;
+ max-width: 954px;
   margin-top: 3%;
 }
 
@@ -402,10 +531,369 @@
 }
 
 
+/* ################################################################################################################################# our Process Seaction ########################################################################## */
+.our-process-section {
+    padding: 60px 0;
+    background-color: #fff;
+    min-height: 818px; /* Maintain the desired section height */
+    display: flex;
+    align-items: center; /* Center content vertically within section */
+}
+
+.process-container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.process-subtitle {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1f5b3f;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.process-title {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Luckiest Guy', cursive;
+    margin: 10px 0 80px;
+}
+
+.process-structure {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 50px; /* Space for the horizontal line at the very bottom */
+}
+
+/* Horizontal Dotted Line */
+.timeline-horizontal-line {
+    position: absolute;
+    top: 50%; /* Position the line vertically in the middle of the process-items-wrapper */
+    left: 44%;
+    transform: translate(-50%, -50%); /* Center based on its own size */
+    width: calc(100% - 100px); /* Adjust width as needed, ensure it extends between items */
+    border-top: 2px dotted #1f5b3f; /* Dark green dotted line */
+    z-index: 0; /* Behind other elements */
+}
+
+.process-items-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* Added height to ensure space for vertical lines */
+    height: 350px; /* Adjust this height based on the overall vertical span needed */
+    align-items: center; /* Vertically align items relative to each other for better control */
+}
+
+.process-item {
+    flex: 1;
+    text-align: left; /* Aligned left as per the image */
+    position: relative;
+    z-index: 1;
+    padding: 0 15px;
+    max-width: 250px;
+}
+
+/* Adjusting the vertical position of the items */
+.process-step-1 { order: 1; margin-top: -236px; margin-left: -70px; /* Pull up */ }
+.process-step-2 { order: 2; margin-top: 434px; /* Push down */ }
+.process-step-3 { order: 3; margin-top: -236px; margin-left: 70px; /* Pull up */ }
+.process-step-4 { order: 4; margin-top: 434px; /* Push down */ }
+
+
+
+.process-icon {
+    max-width: 70%; /* Adjust image size within the circle */
+    max-height: 70%; /* Adjust image size within the circle */
+    object-fit: contain;
+    border-radius: 50%; /* Apply border-radius to the image itself if it's square */
+}
+
+.process-item h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    line-height: 1.2;
+    color: #333; /* Darker color for headings */
+}
+
+.process-item p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: 8px 0 0; /* Aligned left, so no auto margin */
+    width: 100%;
+    height: auto;
+    min-height: 54px;
+    color: #666; /* Lighter color for paragraphs */
+}
+
+.step-number {
+    position: absolute;
+    font-size: 64px;
+    font-weight: 800;
+    color: #f0f0f0; /* Light grey for the large numbers */
+    /* Position relative to process-item, adjust as needed */
+    top: 50%; /* Start roughly in the middle of the item content */
+    right: 0;
+    transform: translateY(-50%); /* Vertically center */
+    z-index: -1;
+    font-family: 'Luckiest Guy', cursive;
+    white-space: nowrap; /* Prevent numbers from wrapping */
+}
+
+/* Vertical Lines and Solid Dots */
+
+/* Solid Dot on the horizontal line */
+.process-item::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #1f5b3f; /* Dark green solid dot */
+    border-radius: 50%;
+    z-index: 2; /* On top of lines */
+    border: 2px solid #fff; /* White border for the dot */
+    left: 9%;
+    transform: translateX(-50%);
+    margin-top: -16%; /* Center horizontally */
+}
+
+/* Vertical line for top row items (steps 1 and 3) */
+.process-step-1::before,
+.process-step-3::before {
+    content: '';
+    position: absolute;
+    bottom: -50px; /* Position from the bottom of the process-item */
+    left: 7%;
+    transform: translateX(-50%);
+    width: 2px; /* Thickness of the vertical line */
+    height: calc(100% - 100px); /* Adjusted length to reach the horizontal line */
+    background-color: #1f5b3f; /* Dark green for the vertical line */
+    z-index: 1; /* Between dot and horizontal line */
+}
+
+/* Vertical line for bottom row items (steps 2 and 4) */
+.process-step-2::before,
+.process-step-4::before {
+    content: '';
+    position: absolute;
+    top: -72px; /* Position from the top of the process-item */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: calc(100% - 117px); /* Adjusted length to reach the horizontal line */
+    background-color: #1f5b3f;
+    z-index: 1;
+    margin-left: -40%;
+}
+
+/* Positioning of dots relative to the process-item */
+.process-step-1::after,
+.process-step-3::after {
+    bottom: -75px; /* Position dot correctly on the horizontal line for top items */
+}
+
+.process-step-2::after,
+.process-step-4::after {
+    top: -75px; /* Position dot correctly on the horizontal line for bottom items */
+}
+
+/* Adjustments for icon-circle margin and item text alignment */
+.process-item .icon-circle {
+    margin-left: 0; /* Align icon-circle to the left within process-item */
+    margin-right: auto;
+}
+
+/* ################################################################################################################################   We Obses ############################################################################## */
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+#we-obsess {
+  display: flex;
+  height: 751px;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.text-content {
+  width: 50%;
+  background-color: #f26d45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box {
+  width: 640px;
+  height: 471px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: white;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 125%;
+  margin: 0;
+}
+
+.section-description {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.accordion {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  padding: 15px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  position: relative;
+  transition: background 0.3s ease;
+}
+
+.accordion.active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.accordion-content {
+  display: none;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.accordion.active .accordion-content {
+  display: block;
+}
+
+.image-content {
+  width: 50%;
+  background: url('images/7db504b9782777d2a0e7dfb32ad73d75b66ba064.jpg') center/cover no-repeat;
+}
+.accordion {
+  position: relative;
+  padding-right: 50px;
+}
+
+.accordion-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: auto;
+}
 
 
 
 
+/* ############################################################################################################################################### ingrediant ############################################################## */
+
+
+#ingredient {
+  display: flex;
+  height: 613px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ingredient-image {
+  width: 50%;
+  background: url('images/f3e4d13e3c4f0bcd3a13073faa37826fe8f0017b.png') center/contain no-repeat;
+  background-color: #fff;
+  margin-top: 5%;
+  margin-left: -2%; /* fallback or layout background */
+}
+
+.ingredient-text {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.ingredient-content {
+  width: 667px;
+  height: 373px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ingredient-content h2 {
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 125%;
+  margin: 0;
+}
+
+.ingredient-content p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 152%;
+  margin: 0;
+}
+
+.ingredient-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  height: 55px;
+  padding: 0 24px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+}
+
+.btn.green {
+  background-color: #007f3f;
+  color: white;
+}
+
+.btn.yellow {
+  background-color: #ffe447;
+  color: black;
+}
 
 
 
+  function toggleAccordion(el) {
+    const isActive = el.classList.contains('active');
+    document.querySelectorAll('.accordion').forEach(acc => acc.classList.remove('active'));
+    if (!isActive) el.classList.add('active');
+  }
+  
+  function toggleAccordion(el) {
+    const isActive = el.classList.contains('active');
+
+    // Close all accordions and reset icons
+    document.querySelectorAll('.accordion').forEach(acc => {
+      acc.classList.remove('active');
+      const icon = acc.querySelector('.accordion-icon');
+      if (icon) icon.src = 'images/Frame 2085664541.png'; // path to your plus icon
+    });
+
+    // Toggle current one
+    if (!isActive) {
+      el.classList.add('active');
+      const icon = el.querySelector('.accordion-icon');
+      if (icon) icon.src = 'images/Frame 2085664540.png'; // path to your minus icon
+    }
+  }
